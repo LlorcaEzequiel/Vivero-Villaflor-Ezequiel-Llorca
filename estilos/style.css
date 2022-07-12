@@ -22,6 +22,8 @@ header {
     align-items: flex-end;
 }
 
+
+
 .cardsindex {
     display: flex;
     justify-content: center;
@@ -121,6 +123,7 @@ header div nav a {
     column-gap: 30px;
     row-gap: 30px;
     padding: 10px 0px 10px 60px;
+    align-items: center;
 }
 
 .tarjetas__imagenes--tamaño {

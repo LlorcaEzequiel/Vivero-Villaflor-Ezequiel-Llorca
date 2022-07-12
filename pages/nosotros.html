@@ -1,39 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sobre Nosotros</title>
-    <link rel="stylesheet" href="../estilos/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" type="image/png" href="../images/logo.png" />
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre Nosotros</title>
+  <link rel="icon" type="image/png" href="../images/logo.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="../estilos/style.css">  
+</head>
   <body class="cuerpo">
-    <header class="header">
-      <div class="logoynombre">
-        <img src="../images/logo.png" alt="logo emprendimiento" width="50px" />
-        <h2>Vivero VillaFlor</h2>
+    <header  class="col-sm-12 container-fluid">
+      <div class="text-center">
+        <img src="../images/logo.png" class="rounded my-3" alt="logoindex" width="50px">
       </div>
-      <div>
-        <nav class="navbar">
-          <a href="../index.html" class="a">Inicio</a>
-          <a href="./nosotros.html" class="a">Sobre Nosotros</a>
-          <a href="./contacto.html" class="a">Contacto</a>
-          <a href="./productos.html" class="a">Productos</a>
-          <a href="./ubicacion.html" class="a">Ubicacion</a>
-        </nav>
-      </div>
+      <nav class="navbar navbar-expand-lg my-3">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/nosotros.html">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/ubicacion.html">Ubicacion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-
     <main>
       <section class="textosinicio">
-        <h1>Nos presentamos!</h1>
+        <h1>Hola!</h1>
         <h2>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
           debitis inventore, id earum doloremque facere ducimus sequi. Sunt
@@ -42,6 +56,29 @@
         </h2>
       </section>
     </main>
+    <main class="contenedor__tarjetas">
+    <div class="card" style="width: 18rem;">
+      <img src="../images/incognito.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Salome Villareal</h5>
+        <p class="card-text">Dueña de Vivero Villaflor, 35 años</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="../images/incognito.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Salome Villareal</h5>
+        <p class="card-text">Dueña de Vivero Villaflor, 35 años</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="../images/incognito.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Salome Villareal</h5>
+        <p class="card-text">Dueña de Vivero Villaflor, 35 años</p>
+      </div>
+    </div>
+  </main>
     <footer class="piedepagina">
       <h3>Redes Sociales</h3>
     </footer>
