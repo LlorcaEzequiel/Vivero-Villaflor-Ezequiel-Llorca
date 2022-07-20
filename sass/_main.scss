@@ -1,0 +1,37 @@
+.contenedor {
+    display: grid;
+    grid-template-rows: 0.1fr 0.3fr 1fr;
+    grid-template-columns: auto;
+}
+
+.contenedor__div1 {
+    text-align: center;
+    margin: 10px;
+}
+
+.contenedor__div2 {
+    display: flex;
+    justify-content: center;
+}
+
+.div2__imagen {
+    width: 50%;
+}
+
+.div2__imagen--fondo {
+    background-color: white;
+    width: 100%;
+}
+
+.contenedor__div3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    column-gap: 10px;
+    padding: 20px 0px 0px 20px;
+    justify-items: center;
+}
+
+.div3__imagenes {
+    width: 80%;
+}

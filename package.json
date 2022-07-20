@@ -1,0 +1,25 @@
+{
+  "name": "viverovillaflor_ezequielllorca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --include-path sass ./sass/index.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LlorcaEzequiel/Vivero-Villaflor-Ezequiel-Llorca.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LlorcaEzequiel/Vivero-Villaflor-Ezequiel-Llorca/issues"
+  },
+  "homepage": "https://github.com/LlorcaEzequiel/Vivero-Villaflor-Ezequiel-Llorca#readme",
+  "devDependencies": {
+    "node": "^18.5.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19",
+    "sass": "^1.53.0"
+  }
+}
