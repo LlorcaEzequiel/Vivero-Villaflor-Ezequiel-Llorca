@@ -1,0 +1,9 @@
+.contenedor__tarjetas {
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    grid-template-rows: 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    padding: 10px 0px 10px 60px;
+    align-items: center;
+}
