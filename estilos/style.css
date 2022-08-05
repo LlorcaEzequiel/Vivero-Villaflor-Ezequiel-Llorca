@@ -22,8 +22,9 @@ header {
     align-items: flex-end;
 }
 
-
-
+.textos_inicio{
+    text-align: center;
+}
 .cardsindex {
     display: flex;
     justify-content: center;
@@ -127,7 +128,7 @@ header div nav a {
 }
 
 .tarjetas__imagenes--tamaño {
-    width: 50%;
+    width: 70px;
 }
 
 .card {
@@ -156,7 +157,6 @@ header div nav a {
     border-bottom-left-radius: 10px;
 }
 
-
 /* Empiezan media queris */
 @media (max-width:1192px) {
 
@@ -174,7 +174,7 @@ header div nav a {
     grid-template-columns:repeat(2,1fr) ;
     }
 
-    .cardsindex {
+    .cardsindex_row{
         grid-template-columns:repeat(2,1fr);
     }
   
@@ -202,7 +202,6 @@ header div nav a {
         grid-template-columns:repeat(2,1fr);
     }
 }
-
 @media (max-width:500px){
     .contenedor__tarjetas {
         grid-template-columns:repeat(1,1fr) ;
