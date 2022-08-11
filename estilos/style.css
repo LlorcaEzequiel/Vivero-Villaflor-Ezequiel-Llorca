@@ -157,6 +157,15 @@ header div nav a {
     border-bottom-left-radius: 10px;
 }
 
+.formulario {
+    justify-content: center;
+    justify-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
 /* Empiezan media queris */
 @media (max-width:1192px) {
 

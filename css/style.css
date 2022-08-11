@@ -1,3 +1,7 @@
+body {
+  background-color: #94ca6a;
+}
+
 .card__header {
   position: relative;
 }
@@ -20,7 +24,7 @@
 header {
   display: flex;
   background-color: #ffffff;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   border-end-start-radius: 10px;
   box-shadow: 0 25px 40px -5px rgba(0, 0, 0, 0.5);
@@ -28,8 +32,93 @@ header {
   align-items: flex-end;
 }
 
-body {
-  background-color: #94ca6a;
+.contenedor {
+  display: grid;
+  grid-template-rows: 0.1fr 0.3fr 1fr;
+  grid-template-columns: auto;
+}
+
+.contenedor__div1 {
+  text-align: center;
+  margin: 10px;
+}
+
+.contenedor__div2 {
+  display: flex;
+  justify-content: center;
+}
+
+.div2__imagen {
+  width: 50%;
+}
+
+.div2__imagen--fondo {
+  background-color: white;
+  width: 100%;
+}
+
+.contenedor__div3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  column-gap: 10px;
+  padding: 20px 0px 0px 20px;
+  justify-items: center;
+}
+
+.div3__imagenes {
+  width: 80%;
+}
+
+.piedepagina {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.contenedor__tarjetas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
+  padding: 10px 0px 10px 60px;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  width: 80%;
+}
+.card__header {
+  position: relative;
+}
+.card__header img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.card__header small {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #fff;
+  padding: 8px;
+  position: absolute;
+  right: 0;
+  border-bottom-left-radius: 15px;
+}
+
+.formulario {
+  justify-content: center;
+}
+
+.formulario {
+  justify-content: center;
+  justify-items: center;
+  margin: 5px;
+  padding: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
